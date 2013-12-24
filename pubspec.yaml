@@ -1,0 +1,7 @@
+name: julSpel
+version: 1.0.0
+author: Peter Eliasson (http://github.com/verath)
+description: A 2d-platformer.
+dependencies:
+  box2d: any
+  browser: any
