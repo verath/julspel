@@ -21,7 +21,7 @@ part 'objects/ground.dart';
 part 'objects/player.dart';
 part 'objects/gameobject.dart';
 part 'objects/walkable.dart';
-part 'collision_listener.dart';
+part 'objects/collision_listener.dart';
 part 'objects/platform.dart';
 part 'objects/wall.dart';
 part 'objects/goal.dart';

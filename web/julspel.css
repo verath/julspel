@@ -5,7 +5,8 @@
 
 body {
   background-color: #2e422c;
-  font-family: "Courier New", monospace;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.2em;
