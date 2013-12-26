@@ -6,6 +6,11 @@ class LevelSwapIndicator {
   static ImageElement img_indicator = new ImageElement(src: 'images/level_indicator.png');
 
   
+  LevelSwapIndicator() {
+    Game.addImageToLoad(img_indicator);
+    Game.addImageToLoad(img_indicator_bg);
+  }
+  
   void render(num timestamp, CanvasRenderingContext2D ctx, double progress) {
     ctx.drawImageScaledFromSource(img_indicator_bg, 0, 0, 500, 10, 10, 10, Game.CANVAS_WIDTH-20, 10);
     
