@@ -2,14 +2,16 @@ part of julspel;
 
 
 class PlayerView extends GameObjectView {
-  Player _player;
-  
-  PlayerView(Player this._player);
   static ImageElement img_player = new ImageElement(src: "images/player.png");
   
-  void render(ViewCanvasDraw canvasDraw, num timestamp) {  
+  Player _player;
+  
+  PlayerView(Player this._player) {
     Game.addImageToLoad(img_player);
-    
+  }
+  
+  
+  void render(ViewCanvasDraw canvasDraw, num timestamp) {  
     Vector2 playerPos = _player.physicsBody.position.clone();
     Vector2 playerSize = new Vector2(Player.WIDTH, Player.HEIGHT);
     
