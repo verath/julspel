@@ -270,7 +270,6 @@ class Game {
   void run() {
     _loadImages();
     
-    window.requestAnimationFrame((num time) { waitForImages(time); });
     if(imagesLoaded)
       window.requestAnimationFrame((num time) { step(time); });
     else
