@@ -1,0 +1,45 @@
+/* Hacks. All the hacks. */
+[hidden] {
+  display: none;
+}
+
+body {
+  background-color: #2e422c;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+h1, p, a {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+
+h1#title {
+  font-size: 5em;
+}
+
+@-webkit-keyframes blinker {  
+  0% { margin-left: 40px;}
+  50% { margin-left: -40px;}
+  100% { margin-left: 40px;}
+}
+.blink {
+  -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-duration: 1s; 
+}
+
+
+canvas {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  float: none;
+  background: white;
+}
