@@ -14,3 +14,7 @@ web/out/
 
 *.xcf
 runDart2js.bat
+
+.dart_tool/
+.packages
+build/
